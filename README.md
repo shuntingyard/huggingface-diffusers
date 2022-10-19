@@ -6,12 +6,13 @@ Right now no more than simplistic Python scripts stolen from
 https://github.com/huggingface/diffusers.
 
 ## Notes
-In order to run these a huggingface token plus granted request to use model is
+In order to run these, a huggingface token plus granted request to use model is
 required, unless models are downloaded via
 ```
 git clone https://huggingface.co/CompVis/stable-diffusion-v1-4
 ```
-CPU/ GPU choices here reflect relatively small GPUs, e.g. GTX 1070.
+CPU/ GPU choices here reflect relatively small GPUs, e.g. GTX 1070 and a working
+PyTorch installation with CUDA is required.
 
 ## TODO
 - [ ] Use a better tokenizer in ``text-to-image-gen.py``.
